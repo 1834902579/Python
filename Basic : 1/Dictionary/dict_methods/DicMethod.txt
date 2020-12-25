@@ -1,0 +1,23 @@
+#DicMethod
+personal_info = {
+  'Name' : 'MdMasud',
+   'age' :55,
+  'study':'BscinCSE'
+}
+#get()
+print(personal_info.get('brother_name'))
+print(personal_info.get('brother_name','Elilies'))
+#in
+print('age' in personal_info) 
+print('brother_name' in personal_info)
+#keys()
+print('Roll' in personal_info.keys())
+#values()
+print('Roll' in personal_info.values())
+#items()
+print(personal_info.items())
+#pop()
+print(personal_info.pop('age'))
+print(personal_info)
+#update
+#print(personal_info.update('age'23))
